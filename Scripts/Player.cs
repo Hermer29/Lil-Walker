@@ -23,12 +23,10 @@ public class Player : MonoBehaviour
     public void IncreaseScore(int amount)
     {
         score += amount;
-        print(score);
     }
 
     public void ClearScore()
     {
         score = default;
-        
     }
 }
